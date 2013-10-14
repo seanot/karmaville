@@ -8,6 +8,7 @@ FactoryGirl.define do
     username
     email
 
+
     factory :user_with_karma do
       ignore do
         points 1
